@@ -194,6 +194,6 @@ async def on_audio_end(elements: list[Element]):
     whisper_input = (audio_buffer.name, audio_file, audio_mime_type)
     transcription = await speech_to_text(whisper_input)
 
-    msg = cl.Message(author="You", content=transcription, elements=elements)
+    msg = cl.Message(author="openai-assistant-1", content=transcription, elements=elements)
 
     await main(message=msg)
