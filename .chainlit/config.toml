@@ -60,7 +60,7 @@ name = "fyi Support Team Chatbot"
 show_readme_as_default = false
 
 # Description of the app and chatbot. This is used for HTML tags.
-# description = ""
+# description = "Support Team Chatbot"
 
 # Large size content are by default collapsed for a cleaner ui
 default_collapse_content = true
