@@ -185,7 +185,7 @@ async def on_audio_end(elements: list[Element]):
         mime=audio_mime_type, content=audio_file, name=audio_buffer.name
     )
     await cl.Message(
-        author="You",
+        author="fyi",
         type="user_message",
         content="",
         elements=[input_audio_el, *elements],
